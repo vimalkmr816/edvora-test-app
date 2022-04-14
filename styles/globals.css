@@ -3,7 +3,6 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Inter", sans-serif;
 }
 
 a {
@@ -13,8 +12,27 @@ a {
 
 * {
 	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
 }
-
+.top-header {
+	background-color: black;
+	padding: 0 5.375rem;
+}
 .layout-container {
+	background: #292929;
+	height: 100vw;
+}
+.navbar {
+	padding: 0 5.375rem;
+}
+.nav-items {
+	color: #d0cbcb;
+}
+.nav-items:hover {
+	color: #fff;
+}
+.ride-card {
+	background-color: #171717;
 	margin: 0 5.375rem;
+	border-radius: 10px;
 }

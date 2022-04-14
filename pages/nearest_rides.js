@@ -3,6 +3,10 @@ function nearest_rides() {
 	return (
 		<div>
 			<RideCard page_name={"Nearest Rides"}></RideCard>
+			<RideCard page_name={"Nearest Rides"}></RideCard>
+			<RideCard page_name={"Nearest Rides"}></RideCard>
+			<RideCard page_name={"Nearest Rides"}></RideCard>
+			<RideCard page_name={"Nearest Rides"}></RideCard>
 		</div>
 	);
 }
